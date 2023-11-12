@@ -209,7 +209,7 @@ add_action( 'init', 'twentytwentyfour_pattern_categories' );
 //////PRUEBA TECNICA
 function enqueue_custom_scripts() {
     wp_enqueue_script('custom-users-list', get_template_directory_uri() . '/users-list/js/custom-users-list.js', array('jquery'), null, true);
-	wp_localize_script('custom-users-list', 'ajax_params', array('ajax_url' => admin_url('admin-ajax.php')));
+	
 }
 
 add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
