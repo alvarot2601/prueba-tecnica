@@ -2,10 +2,9 @@ jQuery(document).ready(function ($) {
     //variables globaleds
     let nombre, apellido1, apellido2, mail = '';
     let users_per_page = $("#users_per_page").val();
-    console.log(users_per_page)
     obtenerJson();
 
-
+    //EVENTOS
     $(document).on('change', '#users_per_page', function (e) {
         if($("#users_per_page").val()>10 || $("#users_per_page").val()<5){
             alert("Error. Introduce un valor entre 5 y 10")
@@ -32,6 +31,8 @@ jQuery(document).ready(function ($) {
         mail = $('#input_correo').val();
         obtenerJson(nombre, apellido1, apellido2, mail);
     })
+
+    //FUNCIONES
 
     function filterUsers(allUsers, nombre, apellido1, apellido2, mail){
        const filteredUsers =  allUsers.filter(user => {
