@@ -1,4 +1,4 @@
-﻿# Credenciales: usuario: prueba_tecnica contraseña: prueba_tecnica
+﻿# Login: usuario: prueba_tecnica contraseña: prueba_tecnica
 # El archivo JSON con los usuarios es \wp-content\themes\twentytwentyfour\users-list\js\users.json.
 # En el archivo \wp-content\themes\twentytwentyfour\functions.php he añadido los ganchos, tanto para el js como para el css.
 # Toda la lógica js se encuentra en \wp-content\themes\twentytwentyfour\users-list\js\custom-users-list.js
