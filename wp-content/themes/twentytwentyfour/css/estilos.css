@@ -1,0 +1,29 @@
+#filterForm{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+#pagination{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+}
+
+.btn_pagination{
+    border-radius:500px;
+    border:1px solid black;
+    height:30px;width:30px;
+    display:flex;align-items:center;
+    justify-content:center;
+    cursor:pointer;
+}
+.active_page{
+    background:green;
+    color:white;
+    border:none;
+}
+.user_tables{
+    text-align:center;
+    margin:auto;
+    border-spacing:30px;
+}
